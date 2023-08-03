@@ -23,7 +23,7 @@ public class Exe03 {
 		System.out.println("Informe um número double:");
 		dblNum = teclado.nextDouble();
 		
-		teclado.nextLine();
+		teclado.nextLine();						//esvaziar o buffer do teclado
 		
 		System.out.println("Informe uma palavra:");
 		strPalavra = teclado.nextLine();
